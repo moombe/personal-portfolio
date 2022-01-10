@@ -1,0 +1,88 @@
+body{
+background-image: url(image/mm.jpg);
+}
+ul{
+list-style-type: none;
+}
+a{
+text-decoration: none;
+color: var(--primary-color);
+}
+a:hover{
+    color: rgb(34, 34, 185);
+
+}
+nav{
+    background-color: white;
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 3.5rem;
+    box-shadow: 03px 5px rgb(1, 0, 1);
+    
+    
+
+}
+nav h1{
+    color: tomato;
+}
+nav a{
+    color: violet;
+    transition: ease-in-out;
+
+}
+nav a:hover{
+    color: turquoise;
+border-bottom: 2px solid;
+}
+nav ul{
+    display: flex;
+    gap: 8rem;
+}
+nav ul li{
+    font-weight: normal;
+}
+.burger-menu{
+    color: tomato;
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+    p{
+      display: flex;  
+    color: red;
+    padding: 1rem;
+    border-style: dotted;
+    border-color: rgb(1, 0, 1);
+    background-color: aqua;
+    width: 1cm;
+   border-radius: 100px;
+   position: absolute;
+   right: 30%;
+   top: 50%;
+   text-align: center;
+   text-decoration: none;
+ 
+}
+.oders{
+  background-color: aqua;
+  border: none;  
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 5px blue;
+  transition: all 0.35s ease;
+  margin-top: 15%;
+    
+}
